@@ -1,18 +1,17 @@
 * {
   box-sizing: border-box;
 }
-.content {
-width: 1920px;
- height: 3750px;
-  background-color: #303030;   
-  padding-top: 30px;
+body {
+background-color: #303030;
+min-width: 1520px;
 }
-.container {
+
+.content{
   width: 1520px;
- height: 3500px;
- background-color: #303030; 
+  height: 100%;
  margin: 0 auto;
 }
+
 .header {
 height: 870px;
 margin-top: 84px;
@@ -110,7 +109,7 @@ margin: 0 auto;
   background-image: url("../workDetails/img/header-menu.png");
   background-repeat: no-repeat;
   background-position: center;
-  transform: translate(1750%, -650%);
+  transform: translate(1690%, -650%);
 }
 .header-scroll {
 width: 245px;
@@ -153,6 +152,7 @@ text-transform: uppercase;
   width: 345px;
   height: 550px;
 margin-top: 70px;
+margin-left: 15px;
 }
 .section-line-top {
 width: 337px;
@@ -300,7 +300,7 @@ font-family: 'Ubuntu',
    margin-top: 15px;
 }
 .card-pading {
-   margin-left: 15px;
+   margin-left: 10px;
 }
 .card-pading2 {
   margin-left: 68px;
